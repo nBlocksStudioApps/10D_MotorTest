@@ -2,7 +2,7 @@
     {
         "module": "[fill]",
         "size": {
-            ".text": 598,
+            ".text": 610,
             ".data": 4,
             ".bss": 27,
             ".text-delta": 0,
@@ -13,7 +13,7 @@
     {
         "module": "[lib]\\c.a",
         "size": {
-            ".text": 18668,
+            ".text": 31004,
             ".data": 2472,
             ".bss": 89,
             ".text-delta": 0,
@@ -46,9 +46,9 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 442,
+            ".text": 742,
             ".data": 0,
-            ".bss": 484,
+            ".bss": 1572,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -57,7 +57,7 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 908,
+            ".text": 2118,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -79,9 +79,9 @@
     {
         "module": "mbed-os\\platform",
         "size": {
-            ".text": 3320,
+            ".text": 5484,
             ".data": 260,
-            ".bss": 340,
+            ".bss": 364,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -90,20 +90,9 @@
     {
         "module": "mbed-os\\targets",
         "size": {
-            ".text": 3654,
+            ".text": 3714,
             ".data": 32,
             ".bss": 245,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
-        "module": "nlib\\Counter",
-        "size": {
-            ".text": 148,
-            ".data": 0,
-            ".bss": 0,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -113,6 +102,17 @@
         "module": "nlib\\FlipFlop",
         "size": {
             ".text": 160,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\GPI",
+        "size": {
+            ".text": 546,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -143,9 +143,42 @@
         }
     },
     {
+        "module": "nlib\\StringFormat",
+        "size": {
+            ".text": 214,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\StringSerial",
+        "size": {
+            ".text": 144,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
         "module": "nlib\\Ticker",
         "size": {
             ".text": 318,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\ValueTrig",
+        "size": {
+            ".text": 90,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -166,9 +199,9 @@
     },
     {
         "summary": {
-            "static_ram": 4144,
+            "static_ram": 5256,
             "static_ram_delta": 0,
-            "total_flash": 39384,
+            "total_flash": 56312,
             "total_flash_delta": 0
         }
     }
