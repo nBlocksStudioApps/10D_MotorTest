@@ -19,4 +19,5 @@ BUILD\LPC1768\GCC_ARM\mbed-os\platform\source\mbed_stats.o: \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/PinNames.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_object.h \
  mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_power_mgmt.h \
- mbed-os/platform/mbed_version.h
+ mbed-os/platform/mbed_version.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/Include/cmsis_os2.h

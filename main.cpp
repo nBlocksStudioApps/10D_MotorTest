@@ -21,12 +21,12 @@ nBlock_GPI               nb_nBlockNode0_GPI          (p12);
 nBlock_ValueTrig         nb_nBlockNode1_ValueTrig    (1);
 nBlock_GPI               nb_nBlockNode2_GPI          (p14);
 nBlock_ValueTrig         nb_nBlockNode3_ValueTrig    (2);
-nBlock_L298              nb_nBlockNode4_L298         (LED2, LED3, LED4);
+nBlock_L298              nb_nBlockNode4_L298         (p19, p20, p21);
 nBlock_GPI               nb_nBlockNode5_GPI          (p15);
 nBlock_ValueTrig         nb_nBlockNode6_ValueTrig    (0);
 nBlock_StringFormat      nb_nBlockNode7_StringFormat ("Value: %d\n");
 nBlock_StringSerial      nb_nBlockNode8_StringSerial (USBTX, USBRX);
-nBlock_Ticker            nb_nBlockNode9_Ticker       (100);
+nBlock_Ticker            nb_nBlockNode9_Ticker       (2000);
 nBlock_FlipFlop          nb_nBlockNode10_FlipFlop    (0);
 nBlock_GPOUT             nb_nBlockNode11_GPOUT       (LED1, PullNone, 1);
 

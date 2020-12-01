@@ -26,4 +26,16 @@ BUILD\LPC1768\GCC_ARM\mbed-os\platform\source\SysTimer.o: \
  mbed-os/platform/mbed_power_mgmt.h \
  mbed-os/platform/CriticalSectionLock.h \
  mbed-os/platform/source/SysTimer.h mbed-os/platform/NonCopyable.h \
- mbed-os/platform/mbed_atomic.h mbed-os/drivers/TimerEvent.h
+ mbed-os/platform/mbed_atomic.h mbed-os/drivers/TimerEvent.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_core_c.h \
+ mbed-os/cmsis/RTE_Components.h \
+ mbed-os/rtos/source/TARGET_CORTEX/mbed_rtx_conf.h \
+ mbed-os/targets/TARGET_NXP/mbed_rtx.h mbed-os/cmsis/mbed_cmsis_conf.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_core_cm.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/Include/os_tick.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Config/RTX_Config.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Include/rtx_evr.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h
